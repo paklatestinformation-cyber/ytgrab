@@ -542,6 +542,52 @@
                     android:textColor="@color/text_secondary"
                     android:textSize="12.5sp" />
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:background="@drawable/bg_row"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="0.14"
+                    android:text="@string/dev_label"
+                    android:textAllCaps="true"
+                    android:textColor="@color/text_muted"
+                    android:textSize="9.5sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:letterSpacing="-0.01"
+                    android:text="@string/dev_name"
+                    android:textColor="@color/text_primary"
+                    android:textSize="13.5sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btnPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/bg_paste"
+                    android:paddingStart="12dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/dev_phone"
+                    android:textColor="@color/accent"
+                    android:textSize="11.5sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

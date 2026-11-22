@@ -17,4 +17,7 @@
     <string name="empty_sub">Your finished videos and songs will show up here.</string>
     <string name="hint_save">Saves to Movies / YT Grab</string>
     <string name="notif_channel">Downloads</string>
+    <string name="dev_label">Developed by</string>
+    <string name="dev_name">Muhammad Kamran Malik</string>
+    <string name="dev_phone">+92 313 5275771</string>
 </resources>

@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements DownloadBus.Liste
         b.btnOpenFolder.setOnClickListener(v -> openFolder());
         b.btnDownload.setOnClickListener(v -> startDownload());
         b.btnCancel.setOnClickListener(v -> cancelDownload());
+        b.btnPhone.setOnClickListener(v -> dialDeveloper());
 
         b.segVideo.setOnClickListener(v -> setMode(0));
         b.segAudio.setOnClickListener(v -> setMode(1));
@@ -536,6 +537,14 @@ public class MainActivity extends AppCompatActivity implements DownloadBus.Liste
                 }
             });
         }).start();
+    }
+
+    private void dialDeveloper() {
+        try {
+            startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:+923135275771")));
+        } catch (Exception e) {
+            snack("No dialer app found");
+        }
     }
 
     private void openFolder() {
