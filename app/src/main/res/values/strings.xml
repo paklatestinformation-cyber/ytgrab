@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YT Grab</string>
+    <string name="menu">Menu</string>
+    <string name="paste">Paste</string>
+    <string name="download">Download</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="quality">Quality</string>
+    <string name="recent">Recent</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_folder">Open folder</string>
+    <string name="link_hint">youtube.com/watch?v=…</string>
+    <string name="hero_title">Paste a YouTube link to start</string>
+    <string name="hero_sub">Share any video from the YouTube app → YT Grab</string>
+    <string name="empty_title">No downloads yet</string>
+    <string name="empty_sub">Your finished videos and songs will show up here.</string>
+    <string name="hint_save">Saves to Movies / YT Grab</string>
+    <string name="notif_channel">Downloads</string>
+</resources>
